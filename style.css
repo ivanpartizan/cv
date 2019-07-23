@@ -1,0 +1,30 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+footer {
+	text-align: center;
+	background-color: grey;
+}
+
+#button {
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+	background-color: blue;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+}
+
+#button:hover {
+	background-color: black;
+	cursor: pointer;
+}
+
+img {
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
